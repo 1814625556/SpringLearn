@@ -17,9 +17,9 @@ public class AccountServiceImpl2 implements IAccountService {
     @Autowired
     private IAccountDao accountDao;
 
-    public void setAccountDao(IAccountDao accountDao) {
-        this.accountDao = accountDao;
-    }
+//    public void setAccountDao(IAccountDao accountDao) {
+//        this.accountDao = accountDao;
+//    }
 
     @Override
     public Account findAccountById(Integer id) {

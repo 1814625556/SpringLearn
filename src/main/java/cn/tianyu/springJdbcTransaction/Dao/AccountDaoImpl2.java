@@ -10,7 +10,7 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 @Repository("accountDao")
-public class AccountDaoImpl2 extends JdbcDaoSupport implements IAccountDao{
+public class AccountDaoImpl2  implements IAccountDao{
 
     @Autowired
     private JdbcTemplate jdbcTemplate;
