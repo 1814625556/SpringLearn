@@ -4,12 +4,23 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
     	                   http://www.springframework.org/schema/beans/spring-beans.xsd">
 
+    <!--实例工厂模式-->
+    <bean id="instanceFactory" class="cn.tianyu.beantest.dao.InstanceFactory"></bean>
+    <bean id="accountService4" factory-bean="instanceFactory"
+          factory-method="createAccountService"></bean>
+    <!--静态工厂模式-->
+    <bean id="accountService3"
+          class="cn.tianyu.beantest.dao.StaticFactory" factory-method="createCustomerService">
+    </bean>
+    <!--属性注入-->
     <bean id="accountService2" class="cn.tianyu.beantest.dao.AccountService2">
         <property name="_accountDao" ref="accountDao"></property>
     </bean>
+    <!--构造函数注入-->
     <bean id="accountService" class="cn.tianyu.beantest.dao.AccountService">
         <constructor-arg name="accountDao" ref="accountDao"></constructor-arg>
     </bean>
+    <!--简单类型注入-->
     <bean id="accountDao" class="cn.tianyu.beantest.dao.AccountDao">
         <constructor-arg name="age" value="23"></constructor-arg>
         <constructor-arg name="name" value="zhangsan"></constructor-arg>
