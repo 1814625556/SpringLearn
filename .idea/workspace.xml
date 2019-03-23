@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ac46cc5-f4ed-4c66-86a0-e3849d71e137" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_18_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/tianyu/annotation/JdbcConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/tianyu/annotation/springTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/jdbcConfig.properties" afterPath="$PROJECT_DIR$/src/main/resources/JdbcConfig.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springLearn.iml" afterPath="$PROJECT_DIR$/springLearn.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/tianyu/annotation/Client.java" afterPath="$PROJECT_DIR$/src/main/java/cn/tianyu/annotation/Client.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/tianyu/annotation/CustomerDao.java" afterPath="$PROJECT_DIR$/src/main/java/cn/tianyu/annotation/CustomerDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/tianyu/annotation/annotationConfig.java" afterPath="$PROJECT_DIR$/src/main/java/cn/tianyu/annotation/annotationConfig.java" />
-    </list>
+    <list default="true" id="7ac46cc5-f4ed-4c66-86a0-e3849d71e137" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,8 +26,8 @@
       <file leaf-file-name="springTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/tianyu/annotation/springTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="814">
-              <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+            <state relative-caret-position="-111">
+              <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1322#1323#0" expanded="true" />
@@ -258,15 +245,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tianyu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringLearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tianyu" type="462c0819:PsiDirectoryNode" />
-              <item name="annotation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringLearn" type="b2602c69:ProjectViewProjectNode" />
@@ -532,7 +510,7 @@
       <workItem from="1553223325046" duration="17133000" />
       <workItem from="1553303375362" duration="35000" />
       <workItem from="1553303608311" duration="5625000" />
-      <workItem from="1553326454862" duration="2230000" />
+      <workItem from="1553326454862" duration="2870000" />
     </task>
     <servers />
   </component>
@@ -542,7 +520,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46290000" />
+    <option name="totallyTimeSpent" value="46930000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -1016,8 +994,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/tianyu/annotation/springTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
-          <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+        <state relative-caret-position="-111">
+          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1322#1323#0" expanded="true" />
