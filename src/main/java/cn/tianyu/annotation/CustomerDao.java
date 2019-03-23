@@ -7,6 +7,7 @@ import org.apache.commons.dbutils.handlers.BeanHandler;
 import org.apache.commons.dbutils.handlers.BeanListHandler;
 import org.springframework.stereotype.Component;
 
+import javax.annotation.Resource;
 import java.sql.SQLException;
 import java.util.List;
 
@@ -17,7 +18,11 @@ public class CustomerDao implements ICustomerDao{
         System.out.println("CustomerDao.saveCustomer.......");
     }
 
-    private QueryRunner runner = new QueryRunner(C3P0Util.getDataSource());
+//    private QueryRunner runner = new QueryRunner(C3P0Util.getDataSource());
+
+//    通过注入的方式
+    @Resource(name="runner")
+    private QueryRunner runner;
 
     @Override
     public List<Customer> findAllCustomer() {

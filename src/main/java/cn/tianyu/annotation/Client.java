@@ -11,14 +11,18 @@ public class Client {
         c3p0test();
     }
 
+    /*
+    * c3p0测试
+    * */
     static void c3p0test()
     {
         ApplicationContext ac = new AnnotationConfigApplicationContext(annotationConfig.class);
         ICustomerService cs = (ICustomerService)ac.getBean("customerService");
         Customer csEntity = new Customer();
-        csEntity.setCust_name("chenchang");
+        csEntity.setCust_name("dy");
         csEntity.setCust_address("shanghai");
-        csEntity.setCust_level("9");
+        csEntity.setCust_level("7");
+        csEntity.setCust_phone("15721527030");
         cs.saveCustomer(csEntity);
     }
     /*
